@@ -1,0 +1,32 @@
+<html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+
+<script>
+    var nome = window.prompt(" Digite o nome da sua empresa")
+    var cnpj = window.prompt(" informe o CNPJ da sua empresa")
+    var quantidadeDeFuncionarios = window.prompt("")
+    var empresa ={
+        nome:nome,
+        cnpj:cnpj,
+        quantidadeDeFuncionarios: quantidadeDeFuncionarios
+    } 
+    
+    var lista = []
+    lista.push(empresa)
+    document.writeln("<br> nome da empresa é :", lista[0].nome)
+    document.writeln(" <br> o CNPJ da sua empresa é :",lista[0].cnpj)
+    document.writeln(" <br> A quantidades de funcionarios é: ", lista[0].quantidadeDeFuncionarios)
+    
+    
+</script>
+<body>
+    
+</body>
+</html>
