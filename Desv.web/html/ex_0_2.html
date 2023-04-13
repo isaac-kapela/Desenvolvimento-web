@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>filmes.com.br</title>
+</head>
+<body>
+    <img src="../" >
+</body>
+<script>
+    var nomeDoFilme = prompt("Digite o nome do filme")
+    var anoDeLancamento = prompt("Em que ano foi lançado o filme:")
+    var nomeDoProtagonista = prompt(" Qual o nome do protagonista: ")
+
+    var filme = {
+        nome: nomeDoFilme,
+        lancamento:anoDeLancamento,
+        protagonista:nomeDoProtagonista
+    }
+    var database = []
+        database.push(filme)
+        document.writeln(" <br> Nome do filme: ",database[0].nome)
+        document.writeln(" <br> O filme foi lancado em: ",database[0].lancamento)
+        document.writeln(" <br> O protagonista do filme é: ",database[0].protagonista)
+         console.log(database)
+</script>
+</html>
