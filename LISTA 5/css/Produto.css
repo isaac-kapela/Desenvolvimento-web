@@ -13,8 +13,11 @@
 }
 
 .produto img {
-    width: 320px;
+    max-width:340px
+    width: 340px;
     margin: 5px;
+    max-height:300px;
+    heigth:300px;
 
 }
 
