@@ -1,0 +1,11 @@
+<p>{{mensagem}}</p>
+
+<span> Olá {{ nome }} você tem {{ idade }} anos e é uma(a) {profissao}</span>
+
+
+<div class="animais" *ngFor= "let animal of  listaAnimais">
+  <p>Identificaçã{{animal.id}}</p>
+  <p>nome: {{animal.nome}}</p>
+  <p>raca:{{ animal.raca}}</p>
+  <p>peso: {{animal.peso}}</p>
+</div>
