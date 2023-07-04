@@ -1,0 +1,17 @@
+1 - Criar 3 objetos com informacoes de pessoas contendo as seguintes informacoes:
+    - nome
+    - idade
+
+Em seguida imprima na tela quem é o mais velho
+EXEMPLO DE SAIDA:
+    - Fulano é o mais velho
+
+----------------------------------------------------------------------------------
+
+2 - Criar 3 objetos com informacoes de pessoas contendo as seguintes informacoes:
+    - nome
+    - altura
+
+Em seguida imprima na tela quem é o mais alto e quem é o mais baixo
+EXEMPLO DE SAIDA:
+    - Fulano é o mais velho e Ciclano é o mais baixo

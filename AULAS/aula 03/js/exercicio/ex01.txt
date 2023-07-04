@@ -1,0 +1,9 @@
+Criar 2 arrays contendo informacoes de um aviao
+ja iniciado com as seguintes informacoes:
+    Nome do aviao
+    ano lancamento
+
+Depois adicionar informacoes do fabricante e onde foi fabricado
+
+Imprimir os arrays no console,
+Imprimir somente os indices 0 e 1 do array no console

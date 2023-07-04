@@ -5,17 +5,17 @@ class Pessoa {
         this._nome = nome;
         this._idade = idade;
     }
-    getnome() {
+    getNome() {
         return this._nome;
     }
-    setnome(Value) {
-        this._nome = Value;
+    setNome(nome) {
+        this._nome = nome;
     }
-    getidade() {
+    getIdade() {
         return this._idade;
     }
-    setidade(value) {
-        this._idade = value;
+    setIdade(idade) {
+        this._idade = idade;
     }
 }
 exports.default = Pessoa;
