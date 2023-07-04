@@ -1,0 +1,8 @@
+Crie um objeto com os seguintes valores inseridos pelo usuario - prompt()
+    Nome da empresa
+    CNPJ - Use informacoes ficticias 
+    Tipo de empresa (banco, farmacia, mercado)
+    Quantidade de funcionarios
+
+Adicione esses objetos em uma lista (a lista deve ser criada vazia)
+Mostrar a lista no navegador - writeln

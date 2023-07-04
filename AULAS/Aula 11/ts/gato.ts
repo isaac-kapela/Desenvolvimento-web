@@ -1,7 +1,8 @@
-import Amimais from "./animais";
+import Animal from "./Animal";
 
-export default class gato implements Amimais{
-    emitirSom(): String {
-        return " O gato miou"
+export default class Gato implements Animal {
+    
+    emitirSom(): string {
+        return "O gato miou!"
     }
 }

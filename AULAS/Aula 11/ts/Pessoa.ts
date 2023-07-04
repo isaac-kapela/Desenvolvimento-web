@@ -1,30 +1,25 @@
-export default class Pessoa{
+export default class Pessoa {
+    private _nome: string
+    private _idade: number
 
-    public _nome:String
-    public _idade:number
-
-    constructor(nome: String,idade: number){
-        this._nome = nome
-        this._idade = idade
+    constructor(nome: string, idade: number) {
+        this._nome = nome;
+        this._idade = idade;
     }
 
-    public getnome(): String{
-        return this._nome
+    public getNome(): string {
+        return this._nome;
     }
 
-    public setnome(Value: string): void{
-         this._nome = Value
+    public setNome(nome: string): void {
+        this._nome = nome;
     }
 
-    public getidade(): number{
-        return this._idade
+    public getIdade(): number {
+        return this._idade;
     }
 
-    public setidade(value: number): void{
-         this._idade = value
-
-    } 
-
+    public setIdade(idade: number): void {
+        this._idade = idade;
+    }
 }
-
-
