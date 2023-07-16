@@ -26,6 +26,11 @@ public class FuncionarioController {
         return funcionarioService.pegarCracha(numeroDoCracha);
     }
 
+    @GetMapping("/{salario}")
+    public Funcionario getMaiorSalario(@PathVariable double salario){
+        return funcionarioService.getMaiorSalario(salario);
+    }
+
     @PostMapping()
     public String save(@RequestBody Funcionario funcionario){
         return funcionarioService.save(funcionario);

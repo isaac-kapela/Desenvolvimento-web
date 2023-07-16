@@ -30,6 +30,24 @@ public class FuncionarioService {
         return null;
     }
 
+
+
+
+    public Funcionario getMaiorSalario(double salario) {
+        double maiorSalario = 0;
+        int index = 0;
+        List<Funcionario> funcionarios = bancoDeDados.findAll();
+
+        for (int i = 0; i < funcionarios.size(); i++) {
+            if (funcionarios.get(i).getSalario() > maiorSalario) {
+                maiorSalario = funcionarios.get(i).getSalario();
+                index = i;
+            }
+        }
+        return funcionarios.get(index);
+    }
+
+
     public String save(Funcionario funcionario){
         return bancoDeDados.save(funcionario);
 
