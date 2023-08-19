@@ -1,0 +1,25 @@
+<body>
+
+<div id="menu">
+  <a class="item-menu" href="#">HOME</a>
+  <a class="item-menu" href="#">PRODUTOS</a>
+  <a class="item-menu" href="#">CONTATO</a>
+  <a class="item-menu" href="#">SOBRE NÓS</a>
+  <a class="item-menu" href="#">LOGIN</a>
+</div>
+
+<h1 class="titulo">{{ mesage }}</h1>
+
+  <div *ngFor="let produto of produtos">
+    <div class="produtos">
+    <img [src]="produto.imagem" />
+
+    <p>{{ produto.nome }}</p>
+    <p>{{ produto.descricao }}</p>
+    <p>{{ produto.valor }}</p>
+
+    <button (click)="detalhes()">Detalhes</button>
+    <button (click)="comprar()">Comprar</button>
+  </div>
+</div>
+</body>

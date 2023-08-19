@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var nomeEmpresa = prompt("Digite o nome da empresa: ")
+    var cnpjEmpresa= prompt("Digite o cnpj da empresa: ")
+    var tipoEmpresa = prompt("Digite o tipo da empresa: ")
+    var quantidadeFuncionarios = prompt("Digite quantos funcionários trabalham nessa empresa: ")
+    var lista = []
+
+    var empresa = {
+        nome: nomeEmpresa,
+        cnpj: cnpjEmpresa,
+        tipo: tipoEmpresa,
+        funcionarios: quantidadeFuncionarios
+    }
+    lista.push(empresa)
+
+    document.writeln("O nome da empresa é: ", lista[0].nome, "<br>")
+    document.writeln("O cnpj da empresa é: ",lista[0].cnpj, "<br>") 
+    document.writeln("O tipo da empresa é: ", lista[0].tipo, "<br>")
+    document.writeln("A quantidade de funcionários da empresa é: ", lista[0].funcionarios, "<br>")
+
+</script>
+</html>
