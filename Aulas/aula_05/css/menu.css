@@ -1,0 +1,14 @@
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+.item-menu {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 200px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(0, 3, 190);
+    font-family: 'Courier New', Courier, monospace;
+}

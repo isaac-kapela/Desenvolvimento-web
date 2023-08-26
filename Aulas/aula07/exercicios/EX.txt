@@ -1,0 +1,51 @@
+1 - Crie uma API com a seguinte rota
+    /bandas
+
+A rota /bandas deve retornar uma lista de objetos (bandas).
+Os objetos devem ter as seguintes propriedades
+    nome da banda - string
+    principais musicas - lista
+    integrantes - lista de objetos
+    
+
+OBS: integrantes deve ser uma lista de objetos com as seguintes propriedades
+    nome do integrante
+    pais onde nasceu
+    idade
+
+
+
+[
+    {
+        nome: 'system of a down',
+        principaisMusicas: ['Chop suey', 'lonely day'],
+        integrantes: [
+            {
+                nome: 'serj tankian',
+                pais: "",
+                idade: ""
+            },
+            {
+                nome: 'serj tankian',
+                pais: "",
+                idade: ""
+            }
+        ]
+    },
+{
+        nome: 'system of a down',
+        principaisMusicas: ['Chop suey', 'lonely day'],
+        integrantes: [
+            {
+                nome: 'serj tankian',
+                pais: "",
+                idade: ""
+            },
+            {
+                nome: 'serj tankian',
+                pais: "",
+                idade: ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+<div *ngFor="let pessoa of listaPessoas">
+  <div class="pessoas" *ngIf="pessoa.idade > 25">
+    <p>Nome: {{ pessoa.nome }}</p>
+    <p>Idade: {{ pessoa.idade }}</p>
+    <p>Profissão: {{ pessoa.profissao }}</p>
+
+    <button (click)="detalhes()">Detalhes</button>
+  </div>
+</div>

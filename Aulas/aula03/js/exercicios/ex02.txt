@@ -1,0 +1,9 @@
+Criar 3 objetos que represente 3 empresas
+O objeto deve ter:
+    Nome da empresa
+    CNPJ - Use informacoes ficticias 
+    Tipo de empresa (banco, farmacia, mercado)
+    Quantidade de funcionarios
+
+Adicione esses objetos em uma lista (a lista deve ser criada vazia)
+Imprimir a lista no console
