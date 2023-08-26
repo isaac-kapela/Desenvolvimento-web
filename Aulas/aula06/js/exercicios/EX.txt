@@ -1,0 +1,32 @@
+1 - Criar as 4 operações basicas da matemática usando funções:
+    Adição
+    Subtração
+    Multiplicação
+    Divisão
+
+2 - Criar as 4 operações basicas da matemática usando arrow function
+    Adição
+    Subtração
+    Multiplicação
+    Divisão
+
+
+3 - Criar uma função que receba como paramêtro nome, sobrenome e idade
+imprima no console as informações
+Exemplo: Seu nome completo é (nome sobrenome) você tem (idade) anos
+
+4 - criar uma função que receba um objeto como paramêtro 
+com as seguintes informações:
+    nome
+    sobrenome
+    idade
+    endereco - deve ser uma lista - com no minimo 2 enderecos
+    telefone - deve ser uma lista - com no minimo 2 telefones
+
+imprimir as informações no console da seguinte maneira:
+    Bem vindo(a)! (mostrar nome completo) você tem (mostrar idade) anos
+    suas informações de contato são (mostrar lista de telefone)
+    endereco cadastrado (mostrar lista de endereco)
+
+
+

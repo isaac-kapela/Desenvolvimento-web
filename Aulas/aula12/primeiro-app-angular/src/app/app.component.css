@@ -1,0 +1,62 @@
+.gestor-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.gestor {
+  margin: 5px;
+  border: 1px solid black;
+  width: 300px;
+
+  font-size: 20px;
+  background-color: crimson;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  color: bisque;
+}
+
+.sub {
+  color: black;
+  font-weight: bolder;
+}
+
+.subordinados {
+  width: 300px;
+  border: 1px solid black;
+  margin: 5px;
+  color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+
+  font-size: 20px;
+  background-color: #7289da;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.subordinados p {
+  margin: 5px;
+}
+
+.analistas-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.analistas {
+  font-size: 20px;
+  background-color: #7289da;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  color: bisque;
+}
