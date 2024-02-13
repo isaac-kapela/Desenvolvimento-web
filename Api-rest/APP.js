@@ -7,6 +7,14 @@ const APP = express();
 // Configurando a aplicação para receber e enviar dados no formato JSON
 APP.use(express.json());
 
+function buscarFeticeiroID(id){
+    return feticeiros_jujutsu.filter(feticeiro => feticeiro.id == id);
+
+}
+function buscarFeticeiroNome(id){
+    return feticeiros_jujutsu.findIndex(feticeiro => feticeiro.id == id);
+
+}
 const feticeiros_jujutsu = [
     {
         id: 1,
@@ -55,6 +63,8 @@ const feticeiros_jujutsu = [
 
 ];
 
+
+
 // Definindo uma rota padrão para a aplicação
 APP.get('/', (req, res) => {
     // Quando alguém acessar a rota '/', o servidor responderá com 'Hello World'
@@ -65,9 +75,20 @@ APP.get('/dados_feticeiros', (req, res) => {
     res.status(200).send(feticeiros_jujutsu);
 });
 
+
+APP.get('/dados_feticeiros/:id', (req, res) => { 
+    res.json(buscarFeticeiroID(req.params.id));
+});
+
 APP.post('/dados_feticeiros', (req, res) => {
     feticeiros_jujutsu.push(req.body);
     res.status(201).send('Feticeiro cadastrado com sucesso!');
 });
     
+APP.delete('/dados_feticeiros/:id', (req, res) => {
+    let index = buscarFeticeiroNome(req.params.id);
+    feticeiros_jujutsu.splice(index, 1); 
+    res.send(`feticeiro excluido com id ${req.params.id} excluido com sucesso! `);
+}   
+);
 export default APP
